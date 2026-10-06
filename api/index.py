@@ -14,13 +14,12 @@ def chat():
         try:
             r = requests.post("https://api.groq.com/openai/v1/chat/completions",
                 headers={"Authorization": f"Bearer {GROQ_KEY}","Content-Type":"application/json"},
-                json={"model":"llama-3.3-70b-versatile","messages":[{"role":"system","content":"Tu es Manasse IA, assistant utile qui parle francais, tchadien."},{"role":"user","content":msg}]},
+                json={"model":"llama-3.3-70b-versatile","messages":[{"role":"system","content":"Tu es Manasse IA."},{"role":"user","content":msg}]},
                 timeout=30)
-            txt = r.json()["choices"][0]["message"]["content"]
-            return jsonify({"reply": txt})
+            return jsonify({"reply": r.json()["choices"][0]["message"]["content"]})
         except Exception as e:
-            return jsonify({"reply": f"Erreur Groq: {e} | Message: {msg}"})
-    return jsonify({"reply": f"Manasse (sans cle): {msg}"})
+            return jsonify({"reply": f"Erreur: {e}"})
+    return jsonify({"reply": f"Sans cle: {msg}"})
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
-def catch_all(path): return jsonify({"info":"API Manasse avec Groq","status":"ok"})
+def catch_all(path): return jsonify({"status":"ok"})
