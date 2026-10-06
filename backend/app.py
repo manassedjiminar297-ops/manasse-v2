@@ -1,35 +1,21 @@
+from flask import Flask, jsonify, request
+from flask_cors import CORS
 import os
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
-import requests
-from dotenv import load_dotenv
 
-load_dotenv()
+app = Flask(__name__)
+CORS(app)
 
-app = FastAPI()
+@app.route('/api/health')
+def health():
+    return jsonify({"status": "ok", "message": "Manasse fonctionne"})
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+@app.route('/api/chat', methods=['POST'])
+def chat():
+    data = request.get_json() or {}
+    msg = data.get('message', 'Salut')
+    return jsonify({"reply": f"Echo: {msg} - backend ok, ajoute GEMINI_API_KEY dans Vercel Settings"})
 
-GEMINI_KEY = os.getenv("GEMINI_KEY")
-
-@app.get("/")
-def home():
-    return {"status": "Manasse V2 International OK"}
-
-@app.get("/ask")
-def ask(q: str):
-    if not GEMINI_KEY:
-        return {"error": "GEMINI_KEY not set on Render"}
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_KEY}"
-    r = requests.post(url, json={"contents": [{"parts": [{"text": q}]}]})
-    try:
-        text = r.json()["candidates"][0]["content"]["parts"][0]["text"]
-        return {"answer": text}
-    except Exception as e:
-        return {"error": str(e), "raw": r.text}
-
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def catch_all(path):
+    return jsonify({"info": "API Manasse en ligne. Utilise /api/health et /api/chat"})
