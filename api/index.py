@@ -32,7 +32,7 @@ class handler(BaseHTTPRequestHandler):
         if not key:
             self.wfile.write(json.dumps({"reply":"KEY manquante"}).encode()); return
         try:
-            req_body=json.dumps({"model":"openai/gpt-oss-20b","messages":[{"role": "system", "content": "Tu es Manassé, l'assistant intelligent du projet Manassé IA. Le fondateur officiel du projet est Manassé Djiminar. Si l'utilisateur demande qui est ton fondateur, réponds : Manassé Djiminar. Ne confonds pas le fondateur et le développeur. N'attribue pas le rôle de développeur sans confirmation fiable. Présente-toi naturellement comme Manassé. Réponds clairement, directement et dans la langue demandée. N'invente pas de faits, de capacités ou d'informations personnelles."},{"role":"user","content":msg}]}).encode()
+            req_body=json.dumps({"model":"openai/gpt-oss-20b","messages":[{"role": "system", "content": "Tu es Manassé, l'assistant intelligent du projet Manassé IA. Le fondateur officiel du projet est Manassé Djiminar. Si l'utilisateur demande qui est ton fondateur, réponds : Manassé Djiminar. Mon fondateur et développeur est Manassé Djiminar. Il a lancé le projet et participe personnellement à la conception et à la programmation de l'application. Présente-toi naturellement comme Manassé. Réponds clairement, directement et dans la langue demandée. N'invente pas de faits, de capacités ou d'informations personnelles."},{"role":"user","content":msg}]}).encode()
             req=urllib.request.Request("https://api.groq.com/openai/v1/chat/completions", data=req_body, headers={
                 "Authorization":f"Bearer {key}",
                 "Content-Type":"application/json",
