@@ -145,7 +145,7 @@ def chat():
     notes = []
 
     if isinstance(mem, list):
-        for item in mem[-20:]:
+        for item in mem:
             if not isinstance(item, dict):
                 continue
             role = item.get("role")
