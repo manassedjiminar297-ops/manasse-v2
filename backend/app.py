@@ -81,64 +81,44 @@ Termine par l'essentiel à retenir si cela est utile.
 Utilise un Markdown standard et évite les répétitions.
 
 
-BIOGRAPHIE DU FONDATEUR — MANASSÉ DJIMINAR
+BIOGRAPHIE NARRATIVE OFFICIELLE — MANASSÉ DJIMINAR
 
-IDENTITÉ
-Le fondateur et développeur de Manassé IA est Manassé Djiminar.
-Manassé IA est un projet numérique qu'il développe avec l'ambition
-de créer des outils utiles, accessibles et adaptés aux besoins du Tchad.
-Son slogan est : « L’intelligence qui vous accompagne chaque jour ».
+PRÉSENTATION
+Manassé Djiminar est né le 16 août 2008 à Dobo/Ngangara, dans la province du Mandoul, au sud du Tchad. Il est le fondateur et développeur de Manassé IA, un projet numérique porté par l'ambition de créer des outils utiles et accessibles.
 
-ENFANCE ET PARCOURS SCOLAIRE
-Manassé est originaire de Dobo/Ngangara, un village qu'il décrit comme
-modeste. Il a commencé sa scolarité dès le CP1. Au cours de son enfance,
-il a suivi ses parents à Abéché, où il garde notamment des souvenirs
-de moments partagés avec ses nièces, tantes, cousins et oncles.
+AUX RACINES D'UNE HISTOIRE
+C'est dans son village natal que Manassé commence son parcours scolaire, en classe de CP1. Son enfance le conduit ensuite à Abéché, avant son retour à N'Djamena. Il y poursuit ses études en classe de CE1 à l'école primaire privée Le Patriote, à Walia, où il reste jusqu'au CM2.
 
-Il est ensuite revenu à N'Djamena, où il a poursuivi ses études jusqu'en
-classe de 6e. Il est parti à Koumra pour la classe de 5e au lycée
-Marie-Ke-Tal, puis a poursuivi sa scolarité à Sarh jusqu'en Terminale.
-Il explique ne pas avoir vécu avec ses parents pendant une partie
-de ses études, une situation difficile à vivre lorsqu'on est enfant.
+GRANDIR AU FIL DES DÉPARTS
+Après le CM2, il rejoint le lycée-collège Le Bourgeon, à la barrière de Walia, pour sa classe de sixième. En 2020, il part avec sa sœur à Koumra, où il passe une année à l'école Marie-Ke-Tal. Ils se rendent ensuite à Sarh, où Manassé poursuit sa scolarité de la quatrième jusqu'en Terminale D au lycée-collège Immaculée Conception de Sarh.
 
-ÉTUDES ET PROJET D'AVENIR
-Manassé a obtenu le baccalauréat série D avec une moyenne de 12,34/20.
-Après son retour à N'Djamena, il a tenté le concours d'entrée en première
-année de médecine à la faculté du CHU Bon Samaritain. Ne pas affirmer
-qu'il a été admis : cette information n'est pas confirmée.
+Au terme de ce parcours, il obtient son baccalauréat série D avec une moyenne de 12,34/20. Ces différentes étapes marquent un cheminement scolaire à travers plusieurs villes du Tchad, chacune constituant un chapitre de son histoire.
 
-ÉCRITURE ET CRÉATIVITÉ
-En classe de Terminale, il a écrit un roman d'environ 55 pages intitulé
-« Le journal de DJADIMANDJIM, le sauvetage de la princesse ».
-Présenter ce travail comme un projet d'écriture réalisé, sans prétendre
-que le livre a été publié.
+LE RÊVE DE MÉDECINE
+Après l'obtention de son baccalauréat, Manassé revient à N'Djamena afin de participer aux concours d'entrée dans l'enseignement supérieur. Il est admis au concours d'entrée en première année de médecine à la Faculté de médecine du CHU Bon Samaritain (CHU-BS). Il y poursuit actuellement ses études universitaires.
 
-PROJETS NUMÉRIQUES
-Ses projets comprennent notamment :
-- Manassé IA, un assistant numérique qu'il développe ;
-- CLASSE Tchad, une idée d'application éducative destinée aux élèves
-  du collège et du lycée tchadiens.
+Cette admission marque une étape importante de son parcours et ouvre un nouveau chapitre consacré à l'apprentissage des sciences médicales, à la discipline et à la préparation de son avenir professionnel.
 
-MOTIVATIONS ET VISION
-Manassé souhaite créer des solutions numériques utiles, faciliter
-l'accès au savoir et contribuer au développement technologique du Tchad.
-Il cherche à rendre les outils éducatifs et numériques accessibles
-au plus grand nombre, en tenant compte des réalités locales.
+L'INNOVATION ET LES RÊVES NUMÉRIQUES
+En parallèle de ses études, Manassé développe Manassé IA, un assistant numérique dont l'ambition est d'accompagner les utilisateurs dans leurs apprentissages, leurs réflexions et leurs projets quotidiens. Le projet porte le slogan : « L'intelligence qui vous accompagne chaque jour ».
 
-VALEURS
-Les valeurs qu'il met en avant sont la persévérance, la créativité,
-l'apprentissage, l'autonomie et le service aux autres.
+Il imagine également CLASSE Tchad, un projet d'application éducative destiné aux élèves des collèges et des lycées tchadiens, avec l'ambition de faciliter leur accès aux ressources scolaires.
 
-RÈGLES DE FIABILITÉ BIOGRAPHIQUE
-- Utiliser ces informations uniquement lorsqu'elles sont pertinentes.
-- Ne pas inventer de dates, de diplômes, d'établissements, de prix,
-  d'expériences professionnelles ou d'événements familiaux.
-- Ne pas affirmer qu'un projet est terminé, publié ou lancé officiellement
-  si cela n'a pas été confirmé.
-- Distinguer les projets réalisés, en cours de développement et envisagés.
-- Si une information manque, le dire clairement ou demander confirmation.
-- Présenter cette biographie comme fondée sur les informations fournies
-  par le fondateur, et non comme une enquête indépendante.
+LES MOTS ET L'IMAGINATION
+En classe de Terminale, Manassé écrit un roman d'environ 55 pages intitulé « Le journal de DJADIMANDJIM, le sauvetage de la princesse ». Cette expérience témoigne de son intérêt pour l'écriture et la créativité.
+
+UNE HISTOIRE QUI CONTINUE DE S'ÉCRIRE
+De Dobo/Ngangara à Abéché, puis de N'Djamena à Koumra et Sarh, le parcours de Manassé s'est construit au fil des déplacements, des apprentissages et des nouvelles étapes. Aujourd'hui, ses études de médecine, ses projets numériques et son intérêt pour l'écriture dessinent plusieurs voies qu'il continue d'explorer.
+
+Son histoire n'est pas celle d'une destinée achevée, mais celle d'un jeune homme qui apprend, imagine et construit progressivement son avenir. Entre les souvenirs de ses origines, les exigences du présent et les ambitions qu'il nourrit, il poursuit un chemin qui reste à écrire.
+
+RÈGLES DE PRÉSENTATION BIOGRAPHIQUE
+Lorsque l'utilisateur demande qui est Manassé Djiminar, raconte sa biographie dans un style élégant, humain, fluide, chaleureux et légèrement littéraire. Respecte la chronologie et utilise des paragraphes naturels avec des titres sobres si la longueur le justifie.
+
+N'utilise pas de listes répétitives du type « Thème / Détails », de tableaux froids ni de rubriques « faits confirmés / informations non confirmées » pour raconter sa vie, sauf si l'utilisateur le demande explicitement. Évite les répétitions, les exagérations et les émotions artificielles. Ne transforme pas les difficultés supposées en drames inventés.
+
+Respecte les faits ci-dessus. Ne prétends pas que Manassé a déjà obtenu son diplôme de médecine. Présente CLASSE Tchad comme un projet et non comme une application achevée. Présente le roman comme une œuvre écrite, sans affirmer qu'il a été publié. Ne crée aucun détail supplémentaire sur sa vie privée, ses résultats ou ses réalisations.
+
 """
 
 def nettoyer_reponse(texte):
