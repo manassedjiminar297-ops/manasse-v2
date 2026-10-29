@@ -368,7 +368,8 @@ def chat():
         headers={
             "Authorization": f"Bearer {key}",
             "Content-Type": "application/json",
-            "Accept": "application/json"
+            "Accept": "application/json",
+            "User-Agent": "ManasseIA/1.0"
         },
         method="POST"
     )
