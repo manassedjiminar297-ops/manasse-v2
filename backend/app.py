@@ -91,45 +91,19 @@ Termine par l'essentiel à retenir si cela est utile.
 Utilise un Markdown standard et évite les répétitions.
 
 
-BIOGRAPHIE NARRATIVE OFFICIELLE — MANASSÉ DJIMINAR
+PRÉSENTATION PUBLIQUE DU FONDATEUR
 
-PRÉSENTATION
-Manassé Djiminar est né le 16 août 2008 à Dobo/Ngangara, dans la province du Mandoul, au sud du Tchad. Il est le fondateur et développeur de Manassé IA, un projet numérique porté par l'ambition de créer des outils utiles et accessibles.
+Pour une question générale sur le fondateur, présente uniquement ces
+informations publiques et professionnelles : Manassé Djiminar a fondé
+Manassé IA, un assistant numérique destiné à accompagner les utilisateurs
+dans l'apprentissage, la création et leurs projets. Il développe également
+le projet éducatif CLASSE Tchad. Slogan : « L'intelligence qui vous
+accompagne chaque jour ».
 
-AUX RACINES D'UNE HISTOIRE
-C'est dans son village natal que Manassé commence son parcours scolaire, en classe de CP1. Son enfance le conduit ensuite à Abéché, avant son retour à N'Djamena. Il y poursuit ses études en classe de CE1 à l'école primaire privée Le Patriote, à Walia, où il reste jusqu'au CM2.
-
-GRANDIR AU FIL DES DÉPARTS
-Après le CM2, il rejoint le lycée-collège Le Bourgeon, à la barrière de Walia, pour sa classe de sixième. En 2020, il part avec sa sœur à Koumra, où il passe une année à l'école Marie-Ke-Tal. Ils se rendent ensuite à Sarh, où Manassé poursuit sa scolarité de la quatrième jusqu'en Terminale D au lycée-collège Immaculée Conception de Sarh.
-
-Au terme de ce parcours, il obtient son baccalauréat série D avec une moyenne de 12,34/20. Ces différentes étapes marquent un cheminement scolaire à travers plusieurs villes du Tchad, chacune constituant un chapitre de son histoire.
-
-LE RÊVE DE MÉDECINE
-Après l'obtention de son baccalauréat, Manassé revient à N'Djamena afin de participer aux concours d'entrée dans l'enseignement supérieur. Il est admis au concours d'entrée en première année de médecine à la Faculté de médecine du CHU Bon Samaritain (CHU-BS). Il y poursuit actuellement ses études universitaires.
-
-Cette admission marque une étape importante de son parcours et ouvre un nouveau chapitre consacré à l'apprentissage des sciences médicales, à la discipline et à la préparation de son avenir professionnel.
-
-L'INNOVATION ET LES RÊVES NUMÉRIQUES
-En parallèle de ses études, Manassé développe Manassé IA, un assistant numérique dont l'ambition est d'accompagner les utilisateurs dans leurs apprentissages, leurs réflexions et leurs projets quotidiens. Le projet porte le slogan : « L'intelligence qui vous accompagne chaque jour ».
-
-Il imagine également CLASSE Tchad, un projet d'application éducative destiné aux élèves des collèges et des lycées tchadiens, avec l'ambition de faciliter leur accès aux ressources scolaires.
-
-LES MOTS ET L'IMAGINATION
-En classe de Terminale, Manassé écrit un roman d'environ 55 pages intitulé « Le journal de DJADIMANDJIM, le sauvetage de la princesse ». Cette expérience témoigne de son intérêt pour l'écriture et la créativité.
-
-UNE HISTOIRE QUI CONTINUE DE S'ÉCRIRE
-De Dobo/Ngangara à Abéché, puis de N'Djamena à Koumra et Sarh, le parcours de Manassé s'est construit au fil des déplacements, des apprentissages et des nouvelles étapes. Aujourd'hui, ses études de médecine, ses projets numériques et son intérêt pour l'écriture dessinent plusieurs voies qu'il continue d'explorer.
-
-Son histoire n'est pas celle d'une destinée achevée, mais celle d'un jeune homme qui apprend, imagine et construit progressivement son avenir. Entre les souvenirs de ses origines, les exigences du présent et les ambitions qu'il nourrit, il poursuit un chemin qui reste à écrire.
-
-RÈGLES DE PRÉSENTATION BIOGRAPHIQUE
-Lorsque l'utilisateur demande qui est Manassé Djiminar, raconte sa biographie dans un style élégant, humain, fluide, chaleureux et légèrement littéraire. Respecte la chronologie et utilise des paragraphes naturels avec des titres sobres si la longueur le justifie.
-
-N'utilise pas de listes répétitives du type « Thème / Détails », de tableaux froids ni de rubriques « faits confirmés / informations non confirmées » pour raconter sa vie, sauf si l'utilisateur le demande explicitement. Évite les répétitions, les exagérations et les émotions artificielles. Ne transforme pas les difficultés supposées en drames inventés.
-
-Respecte les faits ci-dessus. Ne prétends pas que Manassé a déjà obtenu son diplôme de médecine. Présente CLASSE Tchad comme un projet et non comme une application achevée. Présente le roman comme une œuvre écrite, sans affirmer qu'il a été publié. Ne crée aucun détail supplémentaire sur sa vie privée, ses résultats ou ses réalisations.
-
-
+Ne révèle pas spontanément sa date de naissance, son lieu de naissance,
+ses déplacements, son parcours scolaire détaillé, ses notes ou d'autres
+données personnelles. Pour une demande générale sur le fondateur, reste
+sur la présentation professionnelle ci-dessus. N'invente aucun détail.
 
 RÈGLES DE MÉMOIRE, D'IDENTITÉ ET DE CONFIDENTIALITÉ :
 
@@ -279,6 +253,105 @@ def chat():
         and conversation[-1].get("content", "").strip() == msg
     ):
         conversation.append({"role": "user", "content": msg[:12000]})
+
+
+    # GARDE-FOUS DÉTERMINISTES IDENTITÉ V2
+    # Ne pas utiliser les réponses de l'assistant comme preuve du prénom.
+    question_norm = re.sub(r"\s+", " ", msg.casefold()).strip()
+    asks_name = bool(re.search(
+        r"\b(comment\s+(?:je|moi)\s+m'appelle|quel\s+est\s+mon\s+nom|"
+        r"quel\s+est\s+mon\s+prénom|qui\s+suis[- ]je)\b",
+        question_norm
+    ))
+    asks_founder = bool(re.search(
+        r"\b(fondateur|fondatrice|qui\s+t'a\s+créé|qui\s+a\s+créé\s+"
+        r"(?:manassé|manasse)|ton\s+créateur)\b",
+        question_norm
+    ))
+
+    if asks_name or asks_founder:
+        found_name = None
+
+        def remember_name(value):
+            if not isinstance(value, str):
+                return None
+            value = value.strip()
+            patterns = [
+                r"^\s*je\s+m'appelle\s+([A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'’\-]{1,39})\b",
+                r"^\s*mon\s+prénom\s+est\s+([A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'’\-]{1,39})\b",
+                r"^\s*je\s+suis\s+([A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'’\-]{1,39})\s*[.!]?\s*$"
+            ]
+            for pattern in patterns:
+                match = re.search(pattern, value, re.IGNORECASE)
+                if match:
+                    candidate = match.group(1).strip()
+                    if candidate.casefold() not in {
+                        "étudiant", "etudiant", "étudiante", "etudiante",
+                        "fatigué", "fatigue", "content", "contente",
+                        "disponible", "prêt", "prete", "malade"
+                    }:
+                        return candidate[:40]
+            return None
+
+        # Le champ prénom explicite est prioritaire.
+        explicit = data.get("prenom")
+        if isinstance(explicit, str) and explicit.strip():
+            found_name = explicit.strip()[:40]
+
+        # Chercher seulement les déclarations de l'utilisateur,
+        # jamais les biographies ou réponses précédentes de l'assistant.
+        sources = []
+        mem_history = data.get("memory_history", [])
+        if isinstance(mem_history, list):
+            sources.extend(mem_history[-500:])
+        if isinstance(historique, list):
+            sources.extend(historique[-100:])
+
+        if not found_name:
+            for item in reversed(sources):
+                if not isinstance(item, dict) or item.get("role") != "user":
+                    continue
+                candidate = remember_name(item.get("content"))
+                if candidate:
+                    found_name = candidate
+                    break
+
+        # Vérifier aussi les champs de mémoire structurée connus.
+        memory_obj = data.get("memory", {})
+        if not found_name and isinstance(memory_obj, dict):
+            for key_name in ("prenom", "prénom", "user_name", "name", "nom"):
+                candidate = memory_obj.get(key_name)
+                if isinstance(candidate, str) and candidate.strip():
+                    found_name = candidate.strip()[:40]
+                    break
+
+        parts = []
+        if asks_name:
+            if found_name:
+                parts.append("Ton prénom est " + found_name + ".")
+            else:
+                parts.append(
+                    "Je ne trouve pas de prénom que tu aies communiqué "
+                    "dans l'historique reçu par cette requête. "
+                    "Dis-moi « Je m'appelle … » pour que je puisse "
+                    "le reconnaître dans le contexte disponible."
+                )
+
+        if asks_founder:
+            parts.append(
+                "Manassé Djiminar est le fondateur et développeur de "
+                "Manassé IA, un assistant numérique conçu pour aider "
+                "à apprendre, créer et avancer dans ses projets. "
+                "Il travaille aussi sur CLASSE Tchad, un projet éducatif "
+                "destiné aux élèves tchadiens. "
+                "Le slogan de Manassé IA est : "
+                "« L'intelligence qui vous accompagne chaque jour ». "
+                "Je limite cette présentation aux informations "
+                "professionnelles, sans divulguer de détails personnels."
+            )
+
+        if parts:
+            return jsonify({"reply": "\n\n".join(parts)})
 
     key = os.environ.get("GROQ_API_KEY")
     if not key:
