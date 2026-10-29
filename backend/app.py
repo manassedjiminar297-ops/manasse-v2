@@ -10,6 +10,16 @@ import html
 app = Flask(__name__)
 CORS(app)
 
+
+# Ressources linguistiques locales pour les réponses web
+import sys
+from pathlib import Path as _ManassePath
+_MANASSE_BACKEND_DIR = str(_ManassePath(__file__).resolve().parent)
+if _MANASSE_BACKEND_DIR not in sys.path:
+    sys.path.insert(0, _MANASSE_BACKEND_DIR)
+from linguistique_runtime import contexte_linguistique
+from fulfulde_runtime import contexte_fulfulde
+
 SYSTEM_PROMPT = """
 Tu es Manassé, l'assistant conversationnel du projet Manassé IA.
 
@@ -119,6 +129,35 @@ N'utilise pas de listes répétitives du type « Thème / Détails », de tablea
 
 Respecte les faits ci-dessus. Ne prétends pas que Manassé a déjà obtenu son diplôme de médecine. Présente CLASSE Tchad comme un projet et non comme une application achevée. Présente le roman comme une œuvre écrite, sans affirmer qu'il a été publié. Ne crée aucun détail supplémentaire sur sa vie privée, ses résultats ou ses réalisations.
 
+
+
+RÈGLES DE MÉMOIRE, D'IDENTITÉ ET DE CONFIDENTIALITÉ :
+
+1. IDENTITÉS DISTINCTES
+- Ton nom d'assistant est Manassé.
+- Le fondateur du projet est Manassé Djiminar.
+- Le prénom de l'utilisateur est distinct de celui du fondateur.
+- Ne prétends jamais connaître le prénom de l'utilisateur si aucune information fiable ne le permet.
+
+2. RECONNAISSANCE DU PRÉNOM
+- Si l'utilisateur indique clairement son prénom, par exemple « Je suis Manassé » ou « Je m'appelle Manassé », utilise cette information dans la conversation en cours.
+- Si l'historique fourni contient déjà son prénom, consulte-le avant de demander son nom.
+- Si l'utilisateur demande « Comment je m'appelle ? », réponds avec le dernier prénom qu'il a clairement communiqué dans l'historique disponible.
+- Ne confonds jamais le prénom de l'utilisateur avec celui du fondateur.
+- Ne dis pas que tu as enregistré durablement une information si aucun mécanisme de mémoire persistante ne le confirme.
+- Si le prénom n'est pas présent dans les informations disponibles, demande-le poliment.
+
+3. CONFIDENTIALITÉ DU FONDATEUR
+- Présente Manassé Djiminar de manière professionnelle et respectueuse.
+- Pour une présentation générale, privilégie son rôle de fondateur, sa passion pour la technologie, l'éducation et l'innovation, ainsi que ses projets Manassé IA et CLASSE Tchad.
+- Ne divulgue pas spontanément sa date exacte de naissance, son lieu précis de naissance, son parcours personnel détaillé, ses déplacements ou d'autres données personnelles.
+- Ne communique ces renseignements personnels détaillés que si leur divulgation est explicitement autorisée et appropriée.
+- Ne fabrique jamais de renseignements biographiques. Si une information n'est pas vérifiée, indique clairement l'incertitude.
+
+4. FIABILITÉ
+- Utilise les messages précédents et le contexte de mémoire réellement fournis.
+- Ne prétends pas disposer d'une mémoire entre les discussions si elle n'est pas disponible.
+- Réponds naturellement, simplement et dans la langue de l'utilisateur.
 """
 
 def nettoyer_reponse(texte):
@@ -139,6 +178,34 @@ def chat():
     data = request.get_json(silent=True) or {}
     historique = data.get("messages")
     conversation = [{"role": "system", "content": SYSTEM_PROMPT}]
+    # Ajout prudent des ressources lexicales à la consigne du modèle.
+    try:
+        _langue = str(data.get("language") or data.get("langue") or data.get("lang") or "fr")
+        _question = str(data.get("message") or "")
+        _ctx = str(_ctx_langue(_langue, _question) or "")
+        _ctx += str(_ctx_fulfulde(_langue, _question) or "")
+        if _ctx.strip():
+            conversation[0]["content"] += (
+                "\\n\\nRESSOURCES LINGUISTIQUES LOCALES — à utiliser avec prudence :\\n"
+                + _ctx[:5000]
+                + "\\nN'invente aucune traduction. Distingue les formes documentées des incertaines."
+            )
+    except Exception:
+        pass
+
+    # Ajoute le contexte linguistique local à la requête web.
+    try:
+        _lang = str(data.get("language") or data.get("langue") or data.get("lang") or "fr")
+        _question = str(data.get("message") or "")
+        _lexical_context = (
+            str(contexte_linguistique(_lang, _question) or "")
+            + str(contexte_fulfulde(_lang, _question) or "")
+        )
+        if _lexical_context.strip():
+            conversation[0]["content"] += "\\n\\nRESSOURCES LINGUISTIQUES LOCALES :\\n" + _lexical_context
+    except Exception:
+        pass
+
     # MANASSE_MEMORY_CONTEXT_V1
     # Mémoire fournie par le navigateur : contexte non vérifié, pas une authentification.
     mem = data.get("memory_history", [])
