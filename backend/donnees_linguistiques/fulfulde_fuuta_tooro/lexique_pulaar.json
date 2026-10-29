@@ -1,0 +1,2466 @@
+{
+  "metadata": {
+    "titre": "Lexique Pulaar–Français",
+    "source": "J'apprends le Pulaar — méthode audio-orale Fuuta-Tooro",
+    "fulfulde_principal": "Fuuta-Tooro (Mauritanie, Sénégal)",
+    "alphabet": "Alphabet de Bamako (UNESCO 1966)",
+    "langue_iso": "pul",
+    "licence": "CC-BY 4.0",
+    "version": "1.0",
+    "nb_entrees": 266
+  },
+  "entrees": [
+    {
+      "mot": "a",
+      "sens": "tu — 3ème personne du singulier sujet (se met avant le verbe)",
+      "lecons": [
+        "L4"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "pronom"
+    },
+    {
+      "mot": "aamiin",
+      "sens": "amen (de l'arabe)",
+      "lecons": [
+        "L4"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "emprunt_arabe"
+    },
+    {
+      "mot": "aan",
+      "sens": "toi",
+      "lecons": [
+        "L8"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "pronom"
+    },
+    {
+      "mot": "addude",
+      "sens": "donner, apporter",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "alaa",
+      "sens": "non ; alaa oon = aucun ; alaa dara = il n'y a rien",
+      "lecons": [
+        "L2"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "negatif"
+    },
+    {
+      "mot": "alkaati",
+      "sens": "policier (origine portugaise via wolof)",
+      "lecons": [
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom",
+      "origine": "portugais"
+    },
+    {
+      "mot": "am",
+      "sens": "mon, ma (possessif)",
+      "lecons": [
+        "L8"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "possessif"
+    },
+    {
+      "mot": "anndal",
+      "sens": "savoir, connaissance",
+      "lecons": [
+        "L21"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "variante_macina": "anndal"
+    },
+    {
+      "mot": "anndude",
+      "sens": "savoir, connaître",
+      "lecons": [
+        "L8",
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "arde",
+      "sens": "arriver, venir",
+      "lecons": [
+        "L10"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "artude",
+      "sens": "revenir",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "asde",
+      "sens": "creuser",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "baaba",
+      "sens": "père, papa ; oncle paternel",
+      "lecons": [
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "baafal",
+      "sens": "le battant d'une porte (damai = une porte)",
+      "lecons": [
+        "L4"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "baañoowo",
+      "sens": "chasseur (celui qui chasse)",
+      "lecons": [
+        "L21"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom",
+      "variante_macina": "dannaa"
+    },
+    {
+      "mot": "banndiraaɗo",
+      "sens": "parent, membre d'une même famille (sing. de banndiraabe)",
+      "lecons": [
+        "L1",
+        "L10"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "bawɗi",
+      "sens": "tambourins (pl. de mbaggu)",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "baylo",
+      "sens": "artisan forgeron",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom",
+      "variante_macina": "bahillo"
+    },
+    {
+      "mot": "beyi",
+      "sens": "chèvres (sing. mbeewa)",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "bisimilla",
+      "sens": "au nom de Dieu — invitation à entrer (origine arabe)",
+      "lecons": [
+        "L4"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "emprunt_arabe"
+    },
+    {
+      "mot": "boowal",
+      "sens": "dehors, extérieur ; clairière",
+      "lecons": [
+        "L8"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "adverbe"
+    },
+    {
+      "mot": "bottaari",
+      "sens": "déjeuner, repas de la mi-journée",
+      "lecons": [
+        "L10"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "buubaaji",
+      "sens": "tambours (pl. de buubaa)",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "cafaroowo",
+      "sens": "celui ou celle qui soigne",
+      "lecons": [
+        "L9",
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "caggal",
+      "sens": "derrière, après ; caggal makko = derrière lui",
+      "lecons": [
+        "L10"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "postposition"
+    },
+    {
+      "mot": "cañoowo",
+      "sens": "artisan tisserand",
+      "lecons": [
+        "L21"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom",
+      "variante_macina": "cañoo"
+    },
+    {
+      "mot": "capanɗe",
+      "sens": "dizaine ; capanɗe nay = 40",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nombre"
+    },
+    {
+      "mot": "caɗeele",
+      "sens": "problèmes, difficultés (pl. de saɗere)",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "ceede",
+      "sens": "argent, monnaie (aussi kaalis du wolof) ; sing. seedere",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "cefol",
+      "sens": "incantation (pl. cefi)",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "celluka",
+      "sens": "grammaire",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "coggal",
+      "sens": "troupeau (pl. cogge)",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "coggu",
+      "sens": "prix, valeur (voir njaru)",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "cuddiiɗo",
+      "sens": "épouse (voir debbo et jom-suudu)",
+      "lecons": [
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "daande",
+      "sens": "cou (tayde daande = couper le cou) ; voix",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "daarol",
+      "sens": "légende, mythe (voir tinndol)",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "daartol",
+      "sens": "histoire",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "damai",
+      "sens": "porte de maison (syn. naatirde = entrée)",
+      "lecons": [
+        "L4"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "dañde",
+      "sens": "avoir",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "dañirde",
+      "sens": "avoir avec...",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "dara",
+      "sens": "zéro ; haydara = rien",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nombre"
+    },
+    {
+      "mot": "darjeende",
+      "sens": "popularité",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "dawrugol",
+      "sens": "politique",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "debbo",
+      "sens": "femme, épouse",
+      "lecons": [
+        "L6",
+        "L7",
+        "L8"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "debe",
+      "sens": "quarante (40) — cinquante = debe e sappo",
+      "lecons": [],
+      "fulfulde": "Maasina",
+      "categorie": "nombre"
+    },
+    {
+      "mot": "deede",
+      "sens": "grand-frère, grande-sœur, aîné(e) — terme de politesse",
+      "lecons": [
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "defde",
+      "sens": "faire la cuisine",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "denɗiraaɗo",
+      "sens": "cousin par parenté ; cousin de plaisanterie",
+      "lecons": [
+        "L10"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "dey",
+      "sens": "particule d'insistance : ko aan dey = c'est bien toi",
+      "lecons": [
+        "L2",
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "particule"
+    },
+    {
+      "mot": "diiwaan",
+      "sens": "région, contrée",
+      "lecons": [
+        "L21"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "dillude",
+      "sens": "bouger ; partir (Maasina, Fuuta Jalon)",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "diyye",
+      "sens": "eaux (sing. ndiyam)",
+      "lecons": [
+        "L21"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "dogde",
+      "sens": "fuir, courir",
+      "lecons": [
+        "L8",
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "dow",
+      "sens": "haut, en haut",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "adverbe"
+    },
+    {
+      "mot": "dunel",
+      "sens": "petite forêt (diminutif de dunndu)",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "duuɓi",
+      "sens": "ans (sing. nduuɓu) — Yero ina yahra e duuɓi 27 = Yéro a 27 ans",
+      "lecons": [
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "duwaawu",
+      "sens": "bénédictions (origine arabe)",
+      "lecons": [
+        "L4"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "emprunt_arabe"
+    },
+    {
+      "mot": "en",
+      "sens": "nous (pronom personnel réfléchi)",
+      "lecons": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "pronom"
+    },
+    {
+      "mot": "esiraado",
+      "sens": "belle-mère, beau-père",
+      "lecons": [
+        "L10"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "faru",
+      "sens": "temps",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "fayde",
+      "sens": "aller, se diriger vers",
+      "lecons": [
+        "L1"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "feewi",
+      "sens": "beaucoup ; en ordre",
+      "lecons": [
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "adverbe"
+    },
+    {
+      "mot": "feewnude",
+      "sens": "faire, servir, fabriquer",
+      "lecons": [
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "fende",
+      "sens": "mentir",
+      "lecons": [
+        "L8"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "findinde",
+      "sens": "réveiller",
+      "lecons": [
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "fof",
+      "sens": "tout, tous",
+      "lecons": [
+        "L9",
+        "L21"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "quantificateur",
+      "variante_macina": "fuu"
+    },
+    {
+      "mot": "fokkitde",
+      "sens": "repartir, démarrer",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "fooftaade",
+      "sens": "se reposer",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "foolde",
+      "sens": "vaincre, gagner",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "fudtude",
+      "sens": "jaillir",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "fuuta",
+      "sens": "territoire des Fuutankoobe de part et d'autre du fleuve Sénégal",
+      "lecons": [
+        "L10"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom_propre"
+    },
+    {
+      "mot": "fuutanke",
+      "sens": "habitant du Fuuta",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "galle",
+      "sens": "clôture, maison, concession, famille",
+      "lecons": [
+        "L1"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "ganndal",
+      "sens": "savoir, connaissance",
+      "lecons": [
+        "L9",
+        "L21"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "ganndotiral",
+      "sens": "faire connaissance, présentation",
+      "lecons": [
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "garme",
+      "sens": "prince (voir ɓiy-laamɗo)",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom",
+      "synonyme": "ɓiy-laamɗo"
+    },
+    {
+      "mot": "gasnude",
+      "sens": "finir, terminer (aussi gaynude)",
+      "lecons": [
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "gawlo",
+      "sens": "griot",
+      "lecons": [
+        "L21"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom",
+      "variante_macina": "jeliijo"
+    },
+    {
+      "mot": "gawoowo",
+      "sens": "pêcheur",
+      "lecons": [
+        "L21"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom",
+      "variante_macina": "gawo"
+    },
+    {
+      "mot": "gaynaako",
+      "sens": "berger",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "gila",
+      "sens": "depuis",
+      "lecons": [
+        "L5",
+        "L7",
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "preposition"
+    },
+    {
+      "mot": "gollaade",
+      "sens": "travailler",
+      "lecons": [
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "goonga",
+      "sens": "vérité, justice",
+      "lecons": [
+        "L4",
+        "L8"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "gootel",
+      "sens": "un, une (el indique la petitesse, voir leemunna et goo)",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nombre"
+    },
+    {
+      "mot": "gorgol",
+      "sens": "tante paternelle, 2ème épouse du père, ses cousines",
+      "lecons": [
+        "L10"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom",
+      "synonyme": "gorgilaaɗo"
+    },
+    {
+      "mot": "gumɗo",
+      "sens": "non-voyant",
+      "lecons": [
+        "L21"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom",
+      "variante_macina": "bumɗo"
+    },
+    {
+      "mot": "haaju",
+      "sens": "affaire (origine arabe), préoccupation",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom",
+      "origine": "arabe"
+    },
+    {
+      "mot": "haalde",
+      "sens": "parler",
+      "lecons": [
+        "L8"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "haarde",
+      "sens": "être rassasié",
+      "lecons": [
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "hacitaade",
+      "sens": "prendre le petit-déjeuner",
+      "lecons": [
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "hankadi",
+      "sens": "enfin, maintenant",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "adverbe"
+    },
+    {
+      "mot": "hannde",
+      "sens": "aujourd'hui, ce jour-ci",
+      "lecons": [
+        "L3",
+        "L4"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "adverbe"
+    },
+    {
+      "mot": "hawrude",
+      "sens": "rencontrer",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "hay",
+      "sens": "même — hay aan = même toi",
+      "lecons": [
+        "L2"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "particule"
+    },
+    {
+      "mot": "heewde",
+      "sens": "remplir, abonder",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "hikka",
+      "sens": "cette année",
+      "lecons": [
+        "L8"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "adverbe"
+    },
+    {
+      "mot": "hokkude",
+      "sens": "donner, tendre",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "hol to",
+      "sens": "où ? (interrogatif)",
+      "lecons": [
+        "L8"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "interrogatif"
+    },
+    {
+      "mot": "hoore",
+      "sens": "la tête",
+      "lecons": [
+        "L5",
+        "L6",
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "hooreejo",
+      "sens": "dirigeant, chef, président",
+      "lecons": [
+        "L5",
+        "L6"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "hootde",
+      "sens": "rentrer chez soi",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "hulde",
+      "sens": "avoir peur",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "huɓɓude",
+      "sens": "allumer",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "huuñcito",
+      "sens": "enquête",
+      "lecons": [
+        "L8"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "ittude",
+      "sens": "enlever",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "ɓiy-laamɗo",
+      "sens": "fils de roi, prince",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom",
+      "synonyme": "garme"
+    },
+    {
+      "mot": "jaabaade",
+      "sens": "répondre",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "jaaynje",
+      "sens": "au revoir, bon retour, à nous revoir",
+      "lecons": [
+        "L1"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "salutation"
+    },
+    {
+      "mot": "jaaraama",
+      "sens": "merci (du verbe jaareede = remercier, louer)",
+      "lecons": [
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "formule"
+    },
+    {
+      "mot": "jaayaade",
+      "sens": "arriver d'un voyage en bonne santé",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "jam",
+      "sens": "la paix",
+      "lecons": [
+        "L1"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "jam waali",
+      "sens": "bonjour (matin — paix du sommeil)",
+      "lecons": [
+        "L1"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "salutation"
+    },
+    {
+      "mot": "jam weeti",
+      "sens": "bonjour (mi-journée)",
+      "lecons": [
+        "L2"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "salutation"
+    },
+    {
+      "mot": "jam ñalli",
+      "sens": "bonjour (l'après-midi)",
+      "lecons": [
+        "L3"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "salutation"
+    },
+    {
+      "mot": "jam hiiri",
+      "sens": "bonsoir (la nuit)",
+      "lecons": [
+        "L4"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "salutation"
+    },
+    {
+      "mot": "jambitta",
+      "sens": "se plaindre (jambitde)",
+      "lecons": [
+        "L3"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "jannginde",
+      "sens": "enseigner",
+      "lecons": [
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "janngo",
+      "sens": "demain ; subaka janngo = demain matin ; l'avenir, le futur",
+      "lecons": [
+        "L4"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "adverbe"
+    },
+    {
+      "mot": "jarde",
+      "sens": "coûter, valoir ; inciser",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "jaɓde",
+      "sens": "accepter",
+      "lecons": [
+        "L4"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "jeeyoowo",
+      "sens": "vendeur (de yeeyde = vendre)",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "jeyeede",
+      "sens": "être originaire de, appartenir à (verbe réfléchi)",
+      "lecons": [
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "jom",
+      "sens": "propriétaire, chef",
+      "lecons": [
+        "L1"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "jom-galle",
+      "sens": "père de famille, mari",
+      "lecons": [
+        "L1",
+        "L2"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "jom-suudu",
+      "sens": "mère de famille, épouse",
+      "lecons": [
+        "L1"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "joodaade",
+      "sens": "s'asseoir, s'installer",
+      "lecons": [
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "joy",
+      "sens": "cinq",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nombre"
+    },
+    {
+      "mot": "juutde",
+      "sens": "durer, vieillir, allonger",
+      "lecons": [
+        "L10"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "kacitaari",
+      "sens": "petit-déjeuner",
+      "lecons": [
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "kaawi",
+      "sens": "oncle maternel",
+      "lecons": [
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "kay",
+      "sens": "aussi, bien (insistance : ko miin kay = c'est bien moi), évidemment",
+      "lecons": [
+        "L3"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "particule"
+    },
+    {
+      "mot": "kikiide",
+      "sens": "soir (laasara au Maasina)",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "kodda",
+      "sens": "cadet, benjamin",
+      "lecons": [
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "koɗo",
+      "sens": "étranger, hôte",
+      "lecons": [
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "konngol",
+      "sens": "parole, phrase",
+      "lecons": [
+        "L10"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "koreeji",
+      "sens": "parents au sens large",
+      "lecons": [
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "koyngal",
+      "sens": "pied, patte (aussi kosngal)",
+      "lecons": [
+        "L10",
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "laadoori",
+      "sens": "qui rampe = serpent",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "laamaandi",
+      "sens": "royaume",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "laawol",
+      "sens": "route, chemin",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "lacciri",
+      "sens": "couscous (aliment à base de farine de mil)",
+      "lecons": [
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "lamndaade",
+      "sens": "demander (aussi naamndaade) — mbede lamndoo = je demande",
+      "lecons": [
+        "L3"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "leemunna",
+      "sens": "orange (appellation du Fuuta-Jalon)",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Jalon",
+      "categorie": "nom"
+    },
+    {
+      "mot": "les",
+      "sens": "bas, en bas, dessous",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "adverbe"
+    },
+    {
+      "mot": "lewlewal",
+      "sens": "clarté de la lune",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "leydi",
+      "sens": "pays, terre, sol (aussi lesdi)",
+      "lecons": [
+        "L10"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "leyyannde",
+      "sens": "seconde (division du temps) ; clin d'œil",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "lomto",
+      "sens": "intérim, remplaçant",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "lootaade",
+      "sens": "se laver, prendre un bain (voir ɓuftaade)",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "luumo",
+      "sens": "marché, foire (aussi jeere du wolof)",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "maa",
+      "sens": "ou ; marque le futur ; pronom possessif (ton, ta)",
+      "lecons": [
+        "L1",
+        "L2",
+        "L5",
+        "L6",
+        "L7",
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "particule"
+    },
+    {
+      "mot": "maayde",
+      "sens": "mourir (maaya = s'il meurt)",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "maccudo",
+      "sens": "esclave",
+      "lecons": [
+        "L10",
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "marde",
+      "sens": "garder (Macina)",
+      "lecons": [
+        "L21"
+      ],
+      "fulfulde": "Maasina",
+      "categorie": "verbe",
+      "equivalent_fuuta": "mooftude"
+    },
+    {
+      "mot": "mate",
+      "sens": "est-ce que... (interrogatif)",
+      "lecons": [
+        "L5",
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "interrogatif"
+    },
+    {
+      "mot": "mawniiko",
+      "sens": "frère aîné ou sœur aînée",
+      "lecons": [
+        "L10"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "mbaalu",
+      "sens": "mouton (pl. baali)",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "mbar",
+      "sens": "est-ce que... (auxiliaire verbal interrogatif)",
+      "lecons": [
+        "L3"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "auxiliaire"
+    },
+    {
+      "mot": "mbaroodi",
+      "sens": "lion ; désigne aussi le serpent",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "mbaylaandi",
+      "sens": "industrie, transformation",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "mbedda",
+      "sens": "rue (du wolof, voir laawol)",
+      "lecons": [
+        "L8"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom",
+      "origine": "wolof"
+    },
+    {
+      "mot": "mbinndiin",
+      "sens": "écriture",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "mbuuɗu",
+      "sens": "1 unité monétaire = 5 francs (pl. buuɗi)",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "meeɗde",
+      "sens": "goûter, ne jamais — mi meedaa dogde = je n'ai jamais fui",
+      "lecons": [
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "mi",
+      "sens": "je (1ère personne du singulier), me (pronom réfléchi)",
+      "lecons": [
+        "L3",
+        "L4"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "pronom"
+    },
+    {
+      "mot": "miñi",
+      "sens": "petit-frère",
+      "lecons": [
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "mona",
+      "sens": "variante de ina à la 3ème personne du singulier ; contraction de omo wona",
+      "lecons": [
+        "L3"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "auxiliaire"
+    },
+    {
+      "mot": "mooftude",
+      "sens": "garder",
+      "lecons": [
+        "L21"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "moyyii",
+      "sens": "c'est bon (du verbe moyyude = rendre bon, être généreux)",
+      "lecons": [
+        "L2",
+        "L4"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "formule"
+    },
+    {
+      "mot": "mum",
+      "sens": "son, sa (possessif neutre)",
+      "lecons": [
+        "L8"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "possessif"
+    },
+    {
+      "mot": "naam",
+      "sens": "oui (pour répondre à un appel)",
+      "lecons": [
+        "L8"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "reponse"
+    },
+    {
+      "mot": "naatirde",
+      "sens": "entrer pour..., entrée, ouverture, préface",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "nanii",
+      "sens": "entendu (du verbe nande) au passé",
+      "lecons": [
+        "L3"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "nanndude",
+      "sens": "être pareil, ressembler",
+      "lecons": [
+        "L8"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "nano",
+      "sens": "gauche",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "adverbe"
+    },
+    {
+      "mot": "nattude",
+      "sens": "ne pas pouvoir ; décéder",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "nay",
+      "sens": "quatre",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nombre"
+    },
+    {
+      "mot": "ndah",
+      "sens": "prends (du verbe ndahde = tendre, donner)",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "ndema",
+      "sens": "agriculture",
+      "lecons": [
+        "L21"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom",
+      "variante_macina": "deme"
+    },
+    {
+      "mot": "ndenndaandi",
+      "sens": "République",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "ndiyam",
+      "sens": "eau (pl. diyye)",
+      "lecons": [
+        "L10"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "neene",
+      "sens": "mère, maman ; tante maternelle",
+      "lecons": [
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "nelde",
+      "sens": "envoyer, commissionner",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "ngati",
+      "sens": "parce que",
+      "lecons": [
+        "L10"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "conjonction"
+    },
+    {
+      "mot": "njaru",
+      "sens": "prix (ko jarata)",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "njawdi",
+      "sens": "bélier (jawgel = petit bélier)",
+      "lecons": [
+        "L10"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "njeñtudi",
+      "sens": "production (syn. ngeñu)",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "njuɓɓudi",
+      "sens": "organisation ; njuɓɓudi-laamu = administration",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "noogaas",
+      "sens": "vingt (aussi noogay)",
+      "lecons": [
+        "L5",
+        "L21"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nombre",
+      "variante_macina": "noogay"
+    },
+    {
+      "mot": "noon",
+      "sens": "donc, c'est ainsi",
+      "lecons": [
+        "L4"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "adverbe"
+    },
+    {
+      "mot": "ñaamde",
+      "sens": "manger",
+      "lecons": [
+        "L8"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "ñaamo",
+      "sens": "droite",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "adverbe"
+    },
+    {
+      "mot": "ñallude",
+      "sens": "passer la journée ; jam ñalli est une formule de l'après-midi",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "ñalngu",
+      "sens": "jour (syn. ñalnde)",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "ñebbe",
+      "sens": "plante de la famille des haricots",
+      "lecons": [
+        "L10"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "onon",
+      "sens": "vous (pronom)",
+      "lecons": [
+        "L8"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "pronom"
+    },
+    {
+      "mot": "paddo",
+      "sens": "qui attend (du verbe fadde = attendre)",
+      "lecons": [
+        "L4"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "peeje",
+      "sens": "moyens, astuce (sing. pele)",
+      "lecons": [
+        "L21"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom",
+      "variante_macina": "pehe"
+    },
+    {
+      "mot": "resde",
+      "sens": "se marier",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "rewde",
+      "sens": "passer, suivre, respecter",
+      "lecons": [
+        "L4",
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "rokkude",
+      "sens": "donner, tendre",
+      "lecons": [
+        "L10",
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "saabaade",
+      "sens": "être à l'origine de (de l'arabe)",
+      "lecons": [
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe",
+      "origine": "arabe"
+    },
+    {
+      "mot": "salminde",
+      "sens": "saluer (de l'arabe)",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe",
+      "origine": "arabe"
+    },
+    {
+      "mot": "sappo",
+      "sens": "dix",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nombre"
+    },
+    {
+      "mot": "seeda",
+      "sens": "peu, un peu",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "adverbe"
+    },
+    {
+      "mot": "sellude",
+      "sens": "se porter bien, être en bonne santé",
+      "lecons": [
+        "L1"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "sikkude",
+      "sens": "croire, ne pas être sûr",
+      "lecons": [
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "sofaa",
+      "sens": "soldat (du bamanan)",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom",
+      "origine": "bamanan"
+    },
+    {
+      "mot": "sokiindu",
+      "sens": "case fermée, cachot",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "sokkude",
+      "sens": "décortiquer (du mil, du riz...)",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "soodde",
+      "sens": "acheter",
+      "lecons": [
+        "L5",
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "soodoyde",
+      "sens": "aller acheter (oy donne l'idée de distance)",
+      "lecons": [
+        "L2",
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "sorkaade",
+      "sens": "pénétrer en trombe",
+      "lecons": [
+        "L21"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe",
+      "variante_macina": "sarkade"
+    },
+    {
+      "mot": "sukaaɓe",
+      "sens": "petit, jeune fille ou garçon (sing. suka)",
+      "lecons": [
+        "L2"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "suudu",
+      "sens": "case, pièce, chambre",
+      "lecons": [
+        "L1",
+        "L8"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "suukara",
+      "sens": "sucre (pularisé)",
+      "lecons": [
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "tampere",
+      "sens": "fatigue",
+      "lecons": [
+        "L6"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "tampude",
+      "sens": "se fatiguer, être fatigué",
+      "lecons": [
+        "L10"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "tan",
+      "sens": "seulement (invariable)",
+      "lecons": [
+        "L2"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "adverbe"
+    },
+    {
+      "mot": "tanaa",
+      "sens": "fatigue, ennui",
+      "lecons": [
+        "L2"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "tati",
+      "sens": "trois",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nombre"
+    },
+    {
+      "mot": "tawde",
+      "sens": "trouver quelqu'un ou quelque chose, rejoindre",
+      "lecons": [
+        "L5",
+        "L8"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "tawaangal",
+      "sens": "traditions, patrimoine (finaa-tawaa = trouvé)",
+      "lecons": [
+        "L21"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "tawo",
+      "sens": "d'abord, avant (adverbe)",
+      "lecons": [
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "adverbe"
+    },
+    {
+      "mot": "teemedere",
+      "sens": "cent (100), centaine (hemere au Maasina)",
+      "lecons": [
+        "L10"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nombre",
+      "variante_macina": "hemere"
+    },
+    {
+      "mot": "tennde",
+      "sens": "atelier (Maasina) ; aussi mbayla (Fuuta) = forge",
+      "lecons": [],
+      "fulfulde": "Maasina",
+      "categorie": "nom"
+    },
+    {
+      "mot": "tiidde",
+      "sens": "être dur, résistant ; être cher",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "tinndinooje",
+      "sens": "proverbe, enseignement, pièce de théâtre (sing. tinndinoore)",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "tinndol",
+      "sens": "conte",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "to",
+      "sens": "où (interrogatif)",
+      "lecons": [
+        "L3"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "interrogatif"
+    },
+    {
+      "mot": "toon",
+      "sens": "là-bas",
+      "lecons": [
+        "L2",
+        "L3"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "adverbe"
+    },
+    {
+      "mot": "toɓde",
+      "sens": "pleuvoir",
+      "lecons": [
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "uddude",
+      "sens": "fermer",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "ummaade",
+      "sens": "se lever, quitter, venir de",
+      "lecons": [
+        "L7",
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "waande",
+      "sens": "termitière",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "waalde",
+      "sens": "passer la nuit",
+      "lecons": [
+        "L1"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "waɗde",
+      "sens": "faire, mettre ; mbaɗii = ont fait (mb indique le pluriel)",
+      "lecons": [
+        "L2",
+        "L4",
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "weetde",
+      "sens": "passer la matinée, faire jour",
+      "lecons": [
+        "L2"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "welde",
+      "sens": "être bon (goût, humeur), agréable",
+      "lecons": [
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "weltaade",
+      "sens": "être content",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "winndiyanke",
+      "sens": "écrivain",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "wiyeede",
+      "sens": "s'appeler, se nommer",
+      "lecons": [
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "wonde",
+      "sens": "situer (voir leçons 1 et 2)",
+      "lecons": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "wondude",
+      "sens": "être ensemble, rester avec",
+      "lecons": [
+        "L8",
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "woppude",
+      "sens": "laisser",
+      "lecons": [
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "wulaango",
+      "sens": "cri, pleurs (pl. gulaali)",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "wuurnude",
+      "sens": "faire vivre, nourrir",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "yahde",
+      "sens": "partir, aller, marcher",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "yaakaare",
+      "sens": "espoir",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "yaltude",
+      "sens": "sortir",
+      "lecons": [
+        "L2"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "yeeso",
+      "sens": "visage, figure, devant",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "yeewtere",
+      "sens": "causerie, émission",
+      "lecons": [],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "yeeyde",
+      "sens": "vendre (voir jeeyoowo)",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "yeewndaade",
+      "sens": "vérifier, contrôler",
+      "lecons": [
+        "L13",
+        "L20"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "yillaade",
+      "sens": "visiter",
+      "lecons": [
+        "L9"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "yiyde",
+      "sens": "voir, remarquer",
+      "lecons": [
+        "L4"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "yooro",
+      "sens": "sécheresse",
+      "lecons": [
+        "L12",
+        "L19"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "banndu",
+      "sens": "corps, couleur de la peau",
+      "lecons": [
+        "L3"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "beydude",
+      "sens": "ajouter, accroître",
+      "lecons": [
+        "L4"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "besngu",
+      "sens": "famille, peuple",
+      "lecons": [
+        "L1"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "ɓiɗɗo",
+      "sens": "fils ou fille (aussi ɓiydo, ɓiy) ; pl. ɓiɗɓe",
+      "lecons": [
+        "L5",
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "ɓiɗɗe-ledde",
+      "sens": "enfants des arbres = fruits",
+      "lecons": [
+        "L5"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "daanaade",
+      "sens": "dormir",
+      "lecons": [
+        "L7"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "dannaade",
+      "sens": "voyager",
+      "lecons": [
+        "L10"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "verbe"
+    },
+    {
+      "mot": "danngal",
+      "sens": "voyage",
+      "lecons": [
+        "L10"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "nom"
+    },
+    {
+      "mot": "dum",
+      "sens": "ça (pronom démonstratif neutre)",
+      "lecons": [
+        "L1"
+      ],
+      "fulfulde": "Fuuta-Tooro",
+      "categorie": "pronom"
+    }
+  ]
+}
